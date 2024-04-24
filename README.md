@@ -39,6 +39,8 @@ Install the requirements:
 $ python -m pip install -r requirements.txt
 ```
 
+Add environment variables to local.settings.json, use as base [BASE].local.settings.json file.
+
 Start Azurite:
 
 ```console
@@ -50,3 +52,37 @@ Start the Azure functions:
 ```console
 $ func start
 ```
+
+## Python Azure functions testing setup.
+
+Create python virtual environment:
+
+```console
+$ py -m venv .venv
+```
+
+Activate python virtual environment:
+
+```console
+$ .venv\scripts\activate
+```
+
+Install pytest library
+
+```console
+$ python -m pip install -r requirements.txt
+$ pip install pytest
+$ pip list
+```
+
+Execute tests
+
+```console
+$ pytest
+```
+
+Debug tests
+
+Enable in VSCode Sidebar the Testing tool: Right click on the Sidebar > Testing
+
+Configure Python Tests: Click on Configure Python Tests > pytest. Then, VSCode adds automatically to the the project the test debugging configuration. You can now debug your tests with VSCode.
