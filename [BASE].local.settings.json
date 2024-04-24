@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "APPLICATIONINSIGHTS_CONNECTION_STRING": "",
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "AZURE_STORAGE_CONNECTION_STRING":"AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;DefaultEndpointsProtocol=http;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1;TableEndpoint=http://127.0.0.1:10002/devstoreaccount1;",
+      "AZURE_STORAGE_CONTAINER_NAME_DROPFILES":"dropfiles",
+      "AZURE_SQL_CONNECTION_STRING": "DRIVER={ODBC Driver 18 for SQL Server};SERVER=tcp:server.database.windows.net;PORT=1433;DATABASE=database;UID=admin;PWD=password;",
+      "ON_PREMISE_SQL_CONNECTION_STRING": "DRIVER={ODBC Driver 18 for SQL Server};SERVER=tcp:tcp:server.database.windows.net,1433;DATABASE=database;UID=admin;PWD=password;TrustServerCertificate=yes;Encrypt=no;"
+    }
+  }
